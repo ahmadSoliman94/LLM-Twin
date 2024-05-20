@@ -90,3 +90,21 @@ RabbitMQ is a reliable and mature messaging and streaming broker, which is easy 
 
 [for more Informations](https://medium.com/decodingml/the-3nd-out-of-11-lessons-of-the-llm-twin-free-course-ba82752dad5a)
 
+--- 
+
+### Lesson 4: SOTA Python Streaming Pipelines for Fine-tuning LLMs and RAG — in Real-Time!
+
+A **feature pipeline** is responsible for taking raw data as input, processing it into features, and storing it in a feature store, from which the training & inference pipelines will use it.
+
+- uses Bytewax as a stream engine to process data in real-time;
+
+![5](./image/5.webp)
+
+**The Bytewax streaming flow**
+
+The Bytewax flow is the central point of the streaming pipeline. It defines all the required steps, following the next simplified pattern: “input -> processing -> output”.
+
+![6](./image/6.webp)
+
+[for more Informations](https://medium.com/decodingml/sota-python-streaming-pipelines-for-fine-tuning-llms-and-rag-in-real-time-82eb07795b87)
+
